@@ -1,0 +1,426 @@
+* {
+    font-family: "宋体";
+}
+
+div {
+    border-radius: 5px;
+    /* border: 1px solid #aacfd0; */
+}
+
+/*这个是指最大边框的位置、大小、颜色设置 */
+#container {
+    margin: 2%;
+    width: 540px;
+    height: 720px;
+    border: 1px solid #79a8a9;
+    background-color: #aacfd0;
+    font-size: 14px;
+    color: #003b42;
+}
+
+/*这个最上面边框的边距、大小、颜色*/
+#banner {
+    margin-top: 1.2%;
+    margin-left: 1.2%;
+    margin-bottom: 0.5%;
+    width: 97.3%;
+    height: 8%;
+    border: 1px solid #79a8a9;
+    background-color: #dffdf9;
+}
+
+#banner div {
+    font-family:"微软雅黑";
+    font-size: 28px;
+    font-weight:500;
+    letter-spacing: 10px;
+    margin-top:0.2%;
+    margin-left: 0.5%;
+    border:1px solid#003b42;
+    padding-top: 1.4%;
+    padding-left: 38%;
+    width: 60.8%;
+    height: 80%;
+    
+    background-color: #79a8a9;
+}
+
+/*所有左边边框位置距离最大边框的边距、大小、颜色*/
+#main_left {
+    float: left;
+    margin-left: 1.15%;
+    width: 32%;
+    height: 89%;
+    border: 1px solid #79a8a9;
+    background-color: #dffdf9;
+
+}
+
+/*里面其余小框框的设置*/
+#main_left div {
+    margin: 3%;
+    border:1px solid#003b42;
+    width: 93%;
+    /* border: 1px solid #003b42; */
+    background-color: #aacfd0;
+}
+
+/*以下就是各个小框框的高度*/
+#main_left_1 {
+    height: 28%;
+}
+
+#main_left_1 div{
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #79a8a9;
+}
+
+#main_left_2 {
+    height: 15%;
+}
+
+#main_left_2 div{
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #79a8a9;
+}
+
+#main_left_2 tt{
+    margin:3%;
+    background-color: #aacfd0;
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 10px;
+    font-weight:bold;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#main_left_3 {
+    height: 15%;
+}
+
+#main_left_3 div{
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #79a8a9;
+}
+
+#main_left_3 aa{
+    margin:4%;
+    padding-top: 2%;
+    padding-left: 0.5%;
+    padding-right: 1%;
+    border-radius: 5px;
+    border:1px solid#003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.2px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_left_3 bb{
+    margin:4%;
+    padding-top: 2%;
+    padding-left: 0.5%;
+    padding-right: 1%;
+    border-radius: 5px;
+    border:1px solid#003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.2px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_left_4 {
+    height: 36.5%;
+}
+
+#main_left_4 div{
+        padding-top: 1%;
+        font-family: "宋体";
+        color: #295155;
+        font-size: 12.5px;
+        font-weight:bolder;
+        letter-spacing: 1px;
+        text-align: left;
+        background-color: #79a8a9;
+    
+}
+
+#main_left_4 qq{
+        margin-left:6%;
+        border-radius: 5px;
+        padding-top: 0.3%;
+        padding-right: 48%;
+        border: 1px solid#003b42;
+        font-family: "宋体";
+        color: #295155;
+        font-size: 12.5px;
+        font-weight:bolder;
+        letter-spacing: 1px;
+        text-align: left;
+        background-color: #dffdf9;
+    
+}
+
+#main_left_4 zz{
+    margin-left:6%;
+    border-radius: 5px;
+    padding-top: 0.3%;
+    padding-right: 52%;
+    border: 1px solid#003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #79a8a9;
+}
+
+#main_left_4 ww{
+    margin-left:6%;
+    border-radius: 5px;
+    padding-top: 0.5%;
+    padding-right: 40%;
+    border: 1px solid#003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_left_4 ss{
+    margin-left:6%;
+    border-radius: 5px;
+    padding-right: 40%;
+    border: 1px solid#003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_left_4 xx{
+    margin-left:6%;
+    border-radius: 5px;
+    padding-top: 0.5%;
+    padding-right: 48%;
+    border: 1px solid#003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #79a8a9;
+}
+
+#main_left_4 ee{
+    margin-left:6%;
+    border-radius: 5px;
+    padding-top: 0.5%;
+    padding-right: 15%;
+    border: 1px solid#003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_left_4 cc{
+    margin-left:6%;
+    border-radius: 5px;
+    padding-top: 0.5%;
+    padding-right: 52%;
+    border: 1px solid#003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_right {
+    float: left;
+    width: 65%;
+    height: 89%;
+    border: 1px solid #79a8a9;
+    background-color: #dffdf9;
+}
+
+#main_right div {
+    margin-top: 1.5%;
+    margin-left: 1.1%;
+    width: 97%;
+    border: 1px solid #003b42;
+    /* border: 1px solid #003b42; */
+    background-color: #79a8a9;
+    color: #002529;
+}
+
+#main_right_1 {
+    height: 12%;
+
+}
+
+#main_right_1 div{
+    padding-top: 0.5%;
+    border: 1px solid #003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_right_1 rr{
+    margin:1%;
+    background-color: #79a8a9;
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 10px;
+    font-weight:bold;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+
+#main_right_2 {
+    height: 15%;
+}
+
+#main_right_2 div{
+    padding-top: 0.5%;
+    border: 1px solid #003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_right_2 ff{
+    margin:1%;
+    background-color: #79a8a9;
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 10px;
+    font-weight:bold;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#main_right_3 {
+    height: 44%;
+    
+}
+
+#main_right_3 div{
+    padding-top: 0.5%;
+    border: 1px solid #003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_right_3 vv{
+    margin:1%;
+    background-color: #79a8a9;
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.1px;
+    font-weight:bolder;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#main_right_3 gg{
+    margin:1%;
+    background-color: #79a8a9;
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: left;
+}
+
+#main_right_4 {
+    height: 23.5%;
+}
+
+#main_right_4 div{
+    padding-top: 0.5%;
+    border: 1px solid #003b42;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12.5px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #dffdf9;
+}
+
+#main_right_4 yy{
+    margin:1%;
+    background-color: #79a8a9;
+    padding-top: 1%;
+    font-family: "宋体";
+    color: #295155;
+    font-size: 12px;
+    font-weight:bolder;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+}
